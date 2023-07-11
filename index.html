@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Operaciones CRUD</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 5px;
+      width: 200px;
+    }
+
+    button {
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Operaciones CRUD</h1>
+
+  <form id="form">
+    <input type="text" id="name" placeholder="Nombre" required>
+    <input type="text" id="membership" placeholder="Membresía" required>
+    <button type="submit">Agregar</button>
+  </form>
+
+  <table id="table">
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Membresía</th>
+      <th>Acciones</th>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
